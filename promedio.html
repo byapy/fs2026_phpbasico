@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-success-subtle">
+    <header class="bg-success shadow-sm">
+        <nav class="container py-3">
+            <div class="d-flex flex-wrap align-items-center gap-2">
+                <a class="btn btn-outline-light" href="operacion.html">Operaciones</a>
+                <a class="btn btn-outline-light" href="numeropos.html">Positivo</a>
+                <a class="btn btn-light text-success fw-semibold" href="promedio.html">Promedio</a>
+                <a class="btn btn-outline-light" href="mayormenor.html">Mayor y menor</a>
+                <a class="btn btn-outline-light" href="tabla.html">Tabla</a>
+                <a class="btn btn-outline-light" href="pares.html">Pares</a>
+                <a class="btn btn-outline-light" href="palabra.html">Palabra</a>
+                <a class="btn btn-outline-light" href="caracteres.html">Caracteres</a>
+            </div>
+        </nav>
+    </header>
+    <main class="container py-5">
+        <section class="card border-success shadow mx-auto col-12 col-md-10 col-lg-7">
+            <div class="card-header bg-success text-white">
+                <h1 class="h4 mb-0">Promedio</h1>
+            </div>
+            <div class="card-body">
+                <form action="promedio.php" method="get">
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-3">
+                            <label class="form-label text-success-emphasis" for="txt_Nombre">Nombre</label>
+                            <input class="form-control border-success" type="text" name="txt_Nombre" id="txt_Nombre">
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <label class="form-label text-success-emphasis" for="txt_curso">Curso</label>
+                            <input class="form-control border-success" type="text" id="txt_curso" name="txt_curso">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <label class="form-label text-success-emphasis" for="num_Nota1">Nota 1</label>
+                            <input class="form-control border-success" type="number" name="num_Nota1" id="num_Nota1">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <label class="form-label text-success-emphasis" for="num_Nota2">Nota 2</label>
+                            <input class="form-control border-success" type="number" name="num_Nota2" id="num_Nota2">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <label class="form-label text-success-emphasis" for="num_Nota3">Nota 3</label>
+                            <input class="form-control border-success" type="number" name="num_Nota3" id="num_Nota3">
+                        </div>
+                        <div class="col-12 col-md-6 mb-4">
+                            <label class="form-label text-success-emphasis" for="num_Nota4">Nota 4</label>
+                            <input class="form-control border-success" type="number" name="num_Nota4" id="num_Nota4">
+                        </div>
+                        <div class="col-12 col-md-6 mb-4">
+                            <label class="form-label text-success-emphasis" for="num_Nota5">Nota 5</label>
+                            <input class="form-control border-success" type="number" name="num_Nota5" id="num_Nota5">
+                        </div>
+                    </div>
+                    <button class="btn btn-success w-100" type="submit" name="btnSubir" id="btnSubir">Subir</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
