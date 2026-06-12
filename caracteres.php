@@ -17,7 +17,7 @@
                 <a class="btn btn-outline-light" href="tabla.php">Tabla</a>
                 <a class="btn btn-outline-light" href="pares.php">Pares</a>
                 <a class="btn btn-outline-light" href="palabra.html">Palabra</a>
-                <a class="btn btn-light text-success fw-semibold" href="caracteres.html">Caracteres</a>
+                <a class="btn btn-light text-success fw-semibold" href="caracteres.php">Caracteres</a>
             </div>
         </nav>
     </header>
@@ -27,7 +27,7 @@
                 <h2 class="h4 mb-0">Mostrar caracteres de 2 en 2</h2>
             </div>
             <div class="card-body">
-                <form action="caracteres.php" method="get">
+                <form action="objetos/objetoCaracteres.php" method="post">
                     <div class="mb-4">
                         <label class="form-label text-success-emphasis" for="txt_Texto">Texto</label>
                         <input class="form-control border-success" type="text" name="txt_Texto" id="txt_Texto">

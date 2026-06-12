@@ -4,6 +4,12 @@
     $objetoPalabra->DefinirTexto($_POST["txt_Palabra"]);
 
     if(isset($_POST["btnPrimerDigito"])){
-        $objetoPalabra->MostrarPrimerDigito();
+        $objetoPalabra-> MostrarPrimerDigito();
+    }
+    if(isset($_POST["btnUltimoDigito"])){
+        $objetoPalabra-> MostrarUtimoDigito();
+    }
+    if(isset($_POST["btnCaracteres"])){
+        $objetoPalabra-> MostrarCaracteres();
     }
 ?>
